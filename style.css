@@ -37,7 +37,13 @@ header {
  }
 
 section {
-    margin: auto 1em 4em 2em;
+    /* margin: auto 1em 4em 2em; */
+    /* margin: 1em 1em 2em 2em; */
+    margin-top: 2em;
+    margin-right: 1em;
+    margin-left: 3em;
+    margin-bottom: 3em;
+
 }
 
 i {
