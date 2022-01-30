@@ -15,10 +15,26 @@ h2 {
     font-size: 1.5em;
     padding-bottom: 1em;
 }
+
 header {
     text-align: center;
     margin: auto 2em;
 }
+
+.columnarticles {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+#worksummaryleft {
+    border-right: 3px solid lightgray;
+ }
+
+ #worksummarymid {
+    border-right: 3px solid lightgray;
+ }
 
 section {
     margin: auto 1em 4em 2em;
