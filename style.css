@@ -16,16 +16,29 @@ h2 {
     padding-bottom: 1em;
 }
 
+h3 {
+    font-size: 1.6em;
+    /* padding-bottom: em; */
+}
+
+h4 {
+    font-size: 1.25em;
+    /* padding-bottom: em; */
+}
+
 header {
     text-align: center;
     margin: auto 2em;
+    font-variant: small-caps;
 }
 
 .columnarticles {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+    /* grid-auto-rows: minmax(100px, auto); */
+    grid-template-rows: 200px;
+    /* white-space: nowrap; */
   }
 
 #worksummaryleft {
@@ -42,7 +55,7 @@ section {
     margin-top: 2em;
     margin-right: 1em;
     margin-left: 3em;
-    margin-bottom: 3em;
+    /* margin-bottom: 2em; */
 
 }
 
