@@ -1,6 +1,10 @@
 <html>
 	<head>
 		<link href="style.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
 		<title> resume</title>
 	</head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -14,18 +18,14 @@
 			<hr>
 		</header>
 		<main>
-			<article>
-				<section>
+			<div>
 					<h2><b>CONTACT</b></h2>
 					<!-- contact info including social media -->
                     <p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:clarv02@gmail.com">clarv02@gmail.com</a>
                     </p>
-				</section>
-				<section>
 					<h2><b>SKILLS</b></h2>
-					<!-- your skills AKA "buzzwords" -->
                     <ul>
                         <li>API:		Postman, Azure APIM, OAuth/Okta, SolarWinds API, ExtraHop API</li>
                         <li>Microsoft Azure:	DevOps, CosmosDB, API Mgmt, Automation Runbooks, Logic Apps, Function Apps, Log Analytics</li>
@@ -41,23 +41,20 @@
                         <li>Documentation: 	Lucidchart; Visio; Process Docs; Logistical planning; RFQ</li>
                         <li>Project Mgmt: 	Jira, Smartsheet, MS Project 2000, 2003, 2007</li>
                 </ul>
-				</section>
-				<section>
 					<h2><b>EDUCATION</b></h2>
-					<!-- your education -->
-                    <b>ACCOUNTING</b>
-					<p>
-                    <b>AA</b>
-				</p>
-	<p>
-		American River College, Sacramento CA
-	</p>
-				</section>            
-			</article>
-			<article>
-				<section>
+                    <div id=education>
+						<p><b>ACCOUNTING</b>
+						</p>
+						<p>
+						<b>AA</b>
+						</p>
+						<p>
+						American River College, Sacramento CA
+						</p>
+					</div>
+			</div>
+			<div>
 					<h2><b>CERTIFICATIONS</b></h2>
-					<!-- about you -->
 					<ul>
 						<li>Microsoft Azure Administrator		Sep 2020</li>
 						<li>SolarWinds SCP				May 2013</li>
@@ -70,68 +67,68 @@
 						<li>Microsoft MCSA (Win 2000)		May 2002</li>
 						<li>Novell CNE, NetWare 5.1			Aug 2000</li>
                 </ul>
-				</section>
-			</article>
-			<section>
+			</div>
 			<h2><b>WORK HISTORY SUMMARY</b></h2>
-			</section>
 			<div class="columnarticles">
-			<div id=worksummaryleft>
-					<b>Nike, Inc., Beaverton OR</b>
-					<li>Sr. DDI Engineer</li>
-					<li>Ops Intel Engineer</li>
-					<li>Sr. Infrastructure Engineer</li>
-					<br>
-                <!-- </ul> -->
-					<b>Providence Health, Beaverton OR</b>
-					<li>Enterprise Monitoring Engineer</li>
-					<br>
-                <!-- </ul> -->
-                <!-- </ul> -->
-					<b>Xerox ITO Services, Hillsboro OR</b>
-					<li>Network Engineer</li>
-					<br>
-                <!-- </ul> -->
-			</div>
-			<div id=worksummarymid>
-					<b>Renown Health, Reno NV</b>
-					<li>Network Engineer</li>
-					<br>
-					<b>Alere Medical, Reno NV</b>
-					<li>Network Engineer</li>
-					<br>
-					<b>Nevada Security Bank, Reno NV</b>
-					<li>IT LAN/WAN Manager</li>
-					<br>
-			</div>
-			<div id=worksummaryright>
-					<b>The CFO Group, Inc., Reno NV</b>
-					<li>IT Consultant/Sys Admin</li>
-					<br>
-					<b>Wells Fargo Bank, Reno NV</b>
-					<li>PC/LAN Engineer 5</li>
-					<li>Team Lead - PC/LAN Eng 4-5</li>
-					<li>PC/LAN Engineer 3</li>
-					<br>
-					<b>First Security Bank, Reno NV</b>
-					<li>Sr. Technical Specialist</li>
-					<br>
-				<!-- </ul>
-					<b>Comstock Bank, Reno NV</b>
-					<li>Y2K Project Manager</li>
-					<br>
-                </ul> -->
-			</div>
+				<div id=worksummaryleft>
+					<dl>
+						<dt>Nike, Inc., Beaverton OR</dt>
+						<dd>Sr. DDI Engineer</dd>
+						<dd>Ops Intel Engineer</dd>
+						<dd>Sr. Infrastructure Engineer</dd>
+					</dl>
+					<dl>
+						<dt>Providence Health, Beaverton OR</dt>
+						<dd>Enterprise Monitoring Engineer</dd>
+					</dl>
+					<dl>
+						<dt>Xerox ITO Services, Hillsboro OR</dt>
+						<dd>Network Engineer</dd>
+					</dl>
+				</div>
+				<div id=worksummarymid>
+					<dl>
+						<dt>Reown Health, Reno NV</dt>
+						<dd>Network Engineer</dd>
+					</dl>
+					<dl>
+						<dt>Alere Medical, Reno NV</dt>
+						<dd>Network Engineer</dd>
+					</dl>
+					<dl>
+						<dt>Nevada Security Bank, Reno NV</dt>
+						<dd>IT LAN/WAN Manager</dd>
+					</dl>
+				</div>
+				<div id=worksummaryright>
+					<dl>
+						<dt>The CFO Group, Inc., Reno NV</dt>
+						<dd>IT Consultant/Sys Admin</dd>
+						<!-- <br> -->
+					</dl>
+					<dl>
+						<dt>Wells Fargo Bank, Reno NV</dt>
+						<dd>PC/LAN Engineer 5</dd>
+						<dd>Team Lead - PC/LAN Eng 4-5</dd>
+						<dd>PC/LAN Engineer 3</dd>
+						<!-- <br> -->
+					</dl>
+					<dl>
+						<dt>First Security Bank, Reno NV</dt>
+						<dd>Sr. Technical Specialist</dd>
+						<!-- <br> -->
+					</dl>
+				</div>
 		</div>
-			<article>
-				<section>
-					<h2><b>WORK EXPERIENCE DETAIL</b></h2>
+			<div>
+				<br>	
+				<h2><b>WORK EXPERIENCE DETAIL</b></h2>
 					<!-- your work experience -->
 					<h4><b>Nike, Inc. | Beaverton, OR | Oct 2019 to Present</b></h4>
-					<p>
+					<!-- <p> -->
 		<h3><b>Sr. DDI (DNS/DHCP/IPAM) Engineer </b></h3>
 
-</p>
+<!-- </p> -->
 <ul>
 		<li>API: co-development, architectural design, establish API customer database, migrate customers to OAuth/Okta, migrating legacy Azure API’s</li>
 		<li>Azure DevOps: pipelines, pipeline release variables; Github repos for version control, peer reviews/approvals</li>
@@ -145,7 +142,7 @@
 </ul>
 <h4><b>Nike, Inc. | Beaverton, OR | Jun 2015 to Sep 2019</b></h4>
 					<p>
-		<h4><b>Ops Intel Engineer & Sr. Infrastructure Engineer</b></h4>
+		<h3><b>Ops Intel Engineer & Sr. Infrastructure Engineer</b></h3>
 
 </p>
 <ul>
@@ -171,7 +168,7 @@
 </ul>
 <h4><b>Providence Health & Services | Beaverton, OR | Jan 2015 to Jun 2015</b></h4>
 					<p>
-		<h4><b>Enterprise Monitoring Engineer</b></h4>
+		<h3><b>Enterprise Monitoring Engineer</b></h3>
 </p>
 <ul>
 		<li>Review, assess, and refine network discoveries</li>
@@ -185,7 +182,7 @@
 </ul>
 <h4><b>Xerox Business Services | Hillsboro OR | Sep 2013 to Dec 2014</b></h4>
 					<p>
-		<h4><b>Network Engineer</b></h4>
+		<h3><b>Network Engineer</b></h3>
 </p>
 <ul>
 		<li>Bulk import of devices (switches, routers, firewalls, load balancers, optimizers)</li>
@@ -205,7 +202,7 @@
 </ul>
 <h4><b>Renown Health | Reno NV | Jul 2010 to Aug 2013</b></h4>
 					<p>
-		<h4><b>Network Engineer</b></h4>
+		<h3><b>Network Engineer</b></h3>
 </p>
 <ul>
 	<li><b>Cisco Core Switch (6500) Upgrade Project</b></li>
@@ -254,7 +251,7 @@
 </ul>
 <h4><b>Alere Medical | Reno NV | Apr 2008 to Jul 2010</b></h4>
 <p>
-		<h4><b>Network Engineer</b></h4>
+		<h3><b>Network Engineer</b></h3>
 </p>
 <ul>
 	<li><b>Build out new network for office move</b></li>
@@ -287,7 +284,7 @@
 </ul>
 <h4><b>Nevada Security Bank, Reno NV | Nov 2007 to Apr 2008</b></h4>
 <p>
-		<h4><b>Network Engineer</b></h4>
+		<h3><b>Network Engineer</b></h3>
 </p>
 <ul>
 		<li>Revamp IT operations office to create collaborative work space (cleaning up years of neglect)</li>
@@ -310,7 +307,7 @@
 </ul>
 <h4><b>The CFO Group, Inc. | Reno NV | Jun 2006 to Oct 2007</b></h4>
 <p>
-		<h4><b>IT Consultant/Systems Administrator</b></h4>
+		<h3><b>IT Consultant/Systems Administrator</b></h3>
 </p>
 <ul>
 		<li>Provide installation and support of internal networked systems to The CFO Group.</li>
@@ -321,7 +318,7 @@
 </ul>
 <h4><b>Wells Fargo Bank | Reno NV | Jan 2006 to May 2006</b></h4>
 <p>
-		<h4><b>Client Security Compliance/BCP Coordinator/PC/LAN Engineer 5</b></h4>
+		<h3><b>Client Security Compliance/BCP Coordinator/PC/LAN Engineer 5</b></h3>
 </p>
 <ul>
 	<li>Installation & support of network devices, servers, and desktops.</li>
@@ -334,21 +331,21 @@
 </ul>
 <h4><b>Wells Fargo Bank | Reno NV | May 2003 to Dec 2005</b></h4>
 <p>
-		<h4><b>PC/LAN Engineer 4-5</b></h4>
+		<h3><b>PC/LAN Engineer 4-5</b></h3>
 </p>
 <p>
 Led a team consisting of Business Systems Consultants, PC/LAN Analysts, PC/LAN Engineers, Network Engineers, Operating System Engineers, and Project Coordinators across Nevada, Idaho, Montana, and Wyoming. Team was responsible for LAN/WAN/Desktop/Server implementation, support, and maintenance. Involved in team workflow, budget, personnel, team building/mentoring, training/education, etc. Approximately 50% of workload was hands-on involvement with coordination and installation/support of network, servers, and desktop.
 </p>
 <h4><b>Wells Fargo Bank | Reno NV | January 2001 to April 2003</b></h4>
 <p>
-		<h4><b>PC/LAN Engineer 3</b></h4>
+		<h3><b>PC/LAN Engineer 3</b></h3>
 </p>
 <p>
 Regional customer (internal) support with strong emphasis on customer service. Supported desktops and servers with the following operating systems: Windows NT 4.0, Windows 2000, NetWare 5.1, Windows 95/98, OS/2. Took full responsibility for break/fix issues and Move/Add/Change (MAC) projects. Assumed role of project manager for all regional MAC projects, coordinating all technology phases: network cabling, security, computer hardware/software, and voice services. All break/fix and MACs were handled either by personal hands-on involvement or by managed vendors. Worked closely with customers in determining MAC needs to ensure a successful outcome.
 </p>
 <h4><b>First Security Bank | Reno NV  | June 1999 to December 2000</b></h4>
 <p>
-		<h4><b>Sr. Technical Specialist</b></h4>
+		<h3><b>Sr. Technical Specialist</b></h3>
 </p>
 <p>
 <b>Overall Responsibilities:</b> On a daily basis, supported LAN/WAN systems hardware and software in banking locations in the Northern Nevada region. Included the support of NetWare 4.11/5.1, NT Server/Workstation 4.0, ITI Plus, Director, and Infoconnect.  Data Conversion Project - Performed all phases of database conversion for Broker's Ally software.  This required interacting with Stock Brokers and their staff to obtain specifications for the conversion of their individual and shared databases.  Locations included San Francisco, San Jose, Walnut Creek, and Sacramento, California.
@@ -360,8 +357,7 @@ Regional customer (internal) support with strong emphasis on customer service. S
 <b>IP Address Management:</b> Maintained documentation of TCP/IP addresses for all Northern Nevada locations based on corporate standard addressing schemes.  On an ongoing basis, worked with mainframe staff in managing IP Address/Host Terminal Address relationships. Heavily involved with Northern Nevada TCP/IP address conversion as all dynamic and static IP addresses were changed to match new corporate standard.
 </p>
 <br>
-				</section>
-			</article>
+			</div>
 		</main>
 	</body>
 </html>
