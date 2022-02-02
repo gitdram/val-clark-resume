@@ -43,7 +43,7 @@ h4 {
 header {
     text-align: center;
     margin: auto 2em;
-    font-variant: small-caps;
+    /* font-variant: small-caps; */
 }
 
 dt {
@@ -84,16 +84,6 @@ dd {
     margin-left: 2em;
  }
 
-section {
-    /* margin: auto 1em 4em 2em; */
-    /* margin: 1em 1em 2em 2em; */
-    margin-top: 2em;
-    margin-right: 1em;
-    margin-left: 3em;
-    /* margin-bottom: 2em; */
-
-}
-
 i {
     margin-right: .5em;
 }
@@ -105,5 +95,5 @@ p {
 hr {
     border: none;
     background-color: lightgray;
-    height: 1px;
+    height: 2px;
 }
