@@ -54,9 +54,20 @@ dd {
     margin-left: 2em;
 }
 
+#about {
+    font-size: 1.2em;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+#contact {
+    margin-left: 3em;
+}
+
 #education {
     margin-left: 3em;
-
 }
 
 .columnarticles {
@@ -95,5 +106,5 @@ p {
 hr {
     border: none;
     background-color: lightgray;
-    height: 2px;
+    height: 3px;
 }
