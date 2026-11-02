@@ -43,7 +43,7 @@
                         <li><b>Microsoft Azure</b>:	Infrastructure as Code (IaC with cloud-init), Vnets, NSG rules/flow logs, ARM templates, DevOps, Private Endpoints, Private DNS Zones, Private Resolver, CosmosDB, API Mgmt, Automation Runbooks, Logic Apps, Function Apps, Key Vaults, Storage Accts, Event Hubs, Log Analytics, App Insights</li>
                         <li><b>Scripting</b>:		Python, PowerShell, SQL, SWQL (SolarWinds API)</li>
                         <li><b>DNS/DHCP/IPAM</b>:	BlueCat, SolarWinds IPAM, Microsoft DHCP & DNS</li>
-                        <li><b>Observability</b>: 		Azure Monitor, SolarWinds (SAM/NPM/NCM/IPAM/UDT/NTA), CA Spectrum, CA eHealth, SevOne</li>
+                        <li><b>Observability</b>: 		Azure Monitor, CA Spectrum, CA eHealth, SevOne, SolarWinds (SAM/NPM/NCM/IPAM/UDT/NTA) Custom SNMP pollers (UnDP) and SWQL-based custom query dashboards/alerting</li>
                         <li><b>Network Analysis</b>:	Wireshark, ExtraHop, Network Instruments Observer/Probe/GigaStor; Network SPAN/TAPs; NetFlow</li>
                         <li><b>Microsoft General</b>: 	WSL (Linux), SQL, Server 2000-2022; Active Directory; ADSS; Group Policy; WSUS</li>
                         <li><b>Network/Firewall</b>:	Cisco routers & switches; CheckPoint firewalls</li>
@@ -141,8 +141,8 @@
 		<li>Lead Engineer for Azure Infrastructure as Code: Function Apps, App Service Plans, App Service Environments, Automation Accounts, Key Vaults, Event Hubs, CosmosDB, Storage Accounts. Build out GitHub repos, ARM templates & param files, DevOps build & release pipelines</li>
 		<li>Project Manager and Lead Engineer for migrating all Azure resources from multi-tenant to single-tenant subscriptions</li>
 		<li>Lead bi-weekly Jira Sprint planning sessions for Core Services teams</li>
-		<li>Develop automation script to regularly check Azure runbook webhook expirations, with Slack notification</li>
-		<li>Develop automation script to obtain DHCP failover states from all BlueCat DHCP servers, with Slack notification</li>
+		<li>Develop automation and reliability tooling, including runbooks to monitor Azure webhook expiration and reconcile observability data</li>
+		<li>Design and implement SNMP-based DHCP failover monitoring in SolarWinds - including a custom UnDP poller, pivoted SWQL dashboard, and automated Slack alerting — closing a monitoring gap , improving failover visibility, and validated end-to-end against real outages, misconfigurations, and alert resets prior to production rollout. Work recognized by senior technical leadership as a model of proactive operational excellence.</li>
 		<li>Develop Confluence intake forms with Jira integration, email & Slack notifications, custom web service connection to API</li>
 		<li>DNS/DHCP API'S: co-development, architectural design, create/automate API customer database (CosmosDB), migrate customers to OAuth/Okta, migrating legacy Azure API’s</li>
 		<li>Azure DevOps: pipelines, pipeline release variables; Github repos for version control, peer reviews/approvals</li>
